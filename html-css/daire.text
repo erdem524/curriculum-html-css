@@ -1,0 +1,68 @@
+2020/10/7
+
+Today, I began my practical assignments with HYF curcularium.
+
+I read the README and covered all of these:
+Introduction to HTML:
+Crash course
+The most commonly used tags
+Semantic HTML
+Introduction to CSS:
+Crash course
+Where to write it?
+The box model
+The cascading effect
+
+I have found answers for all related questions. 
+
+1. I learned what is
+ HTM and CSS, 
+two main component of html : head and body, 
+difference between class an id, semantic html. 
+semantic html: is using meaningful tag names for elements in html body. 
+internal link points to seperate domain, while external link points to with the same domain. 
+<iframe> used for embedding another web document in a current document. 
+
+
+2. From the links provided HYF I learned some new tags: 
+delete text tag: 
+It is used to represent as deleted text. It cross the text content.
+Syntax:  <strike> Statements... </strike>
+
+Scrolling Text tag: It is used to scroll the text or image content.
+Syntax:<marquee> Statements... </marquee>
+
+Center tag: It is used to set the content into the center.
+Syntax: <center> Statements... </center>
+
+Abbreviation element: It is used to represent an abbreviation or acronym; 
+the optional title attribute can provide an expansion or description for the abbreviation.
+Syntax: <abbr title="Cascading Style Sheets">CSS</abbr>
+
+
+
+3. CSS is cascading style sheet, which is a language for designing and styling how web pages arerepresented to the users. 
+
+the "C" in the name of "CSS" means CSS rules from left to right and top to bottom. 
+
+box model is a styling semantics for layout. it consists: maring, border,padding,content. 
+
+
+4. I practiced CSS Challenges in homework until challenge3. 
+
+
+2020/10/8
+
+1. I practiced CSS Challenges in homework until challenge4,5,6,7. every challenge them took me one hour to complete exept challenge7.
+because I need to built a website according to designed template and I successfully completed the challenge. it took me 4 hours in total. 
+after that, I coded along with tutorial.
+today I studyed 9 hours in total. 
+8-10,
+1-3, 
+7-12pm,
+
+2020/10/9
+I completed a personal with html,css resume. 
+learned some git. 
+5hours
+

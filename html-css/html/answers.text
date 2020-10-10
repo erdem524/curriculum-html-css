@@ -1,0 +1,84 @@
+HTML
+
+1. What is HTML?
+HTML is the foundation of web development. It stands for HyperText Markup Language. It is used to structure content on a webpage.
+Technically, an HTML element is the collection of start tag, its attributes, an end tag and everything in between.
+On the other hand an HTML tag (either opening or closing) is used to mark the start or end of an element.
+
+2. What are the 2 main components of an HTML document? What is the purpose of each?
+The two main parts of an HTML document are the head and the body.
+Each section contains specific information.
+The head section contains information that is useful to the Web browser and search engines but is not visible to the reader. 
+The body section contains the information that you want the visitor to see. such as tags and elements.
+
+
+3. Can you name 2 differences between classes and ids?
+First: The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+second: Each page can have only one element with that ID, You can use multiple classes on the same element.
+
+4. What is “semantic HTML”?
+“Semantic HTML” refers to the idea that all your HTML markup should convey the underlying meaning of your content—not its appearance. 
+Instead of using "div" tag elements everywhere, it is better to use "header, nav, h1, h2, h3, h4, h5, nav,footer" elements. 
+
+5. Can you tell the difference between internal and external links?
+External = links that point to a separate domain
+Internal = links that point to content within the same domain
+
+6. Can you name one use case for the <iframe /> tag?
+ <iframe> elements are designed to allow you to embed other web documents into the current document. 
+
+7. What is the DOM?
+A Web page is a document. This document can be either displayed in the browser window or as the HTML source. 
+But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated.
+ The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
+
+
+CSS  
+
+
+
+1. What is CSS?
+CSS (Cascading Style Sheets) is a language for specifying how documents are presented to users — how they are styled, laid out, etc.
+
+2. Name and explain the 3 different ways of injecting CSS into a HTML document.
+CSS can be added to HTML documents in 3 ways:
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+
+3. What is the meaning of the C (cascading) in CSS?
+The first C in CSS stands for Cascading and it's crucial to learning how to use CSS correctly. 
+Essentially, it means that it matters (1) in which order and (2) how specific you write CSS rules.such as:
+CSS rules always prioritize from left-to-right, then from top-to-bottom.
+ inheritance has the lowest priority among styling methods.
+ IDs have higher priority than classes and tags.
+ !important keyword, it is used to override ordering.In other words, it wields incredible powers.
+
+
+4. Explain the “box model”.
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+The CSS box model is essentially a box that wraps around every HTML element. 
+It consists of: margins, borders, padding, and the actual content. 
+
+Explanation of the different parts:
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+
+https://www.youtube.com/watch?v=rIO5326FgPE
+
+5. What is your favourite CSS framework and why?
+
+6. Give 2 reasons why you would use a CSS framework over custom CSS.
+
+7. What is flexbox?
+
+8. How do CSS variables work?
+
+9. What are pseudo-classes? Give 2 examples.
+
+10. How can you make a webpage “responsive”?
+
+

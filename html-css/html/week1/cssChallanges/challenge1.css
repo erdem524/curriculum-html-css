@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #5b7fbd;
+  font-family: sans-serif;
+}
+.ul-center {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.ul-center {
+  text-align: center;
+  list-style-position: inside;
+  margin: 10px;
+}
+
+ul {
+  text-align: center;
+  right: auto;
+  left: auto;
+  color: #222;
+}
+
+a {
+  color: red;
+}
