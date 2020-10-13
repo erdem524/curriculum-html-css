@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sans-serf&display=swap');
+
+body {
+  font-weight: normal;
+  line-height: 1.625;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 26px;
+  font-weight: bolid;
+}
+
+h1,
+h2,
+h3 :hover {
+  text-decoration: underline;
+}
+/* header */
+header {
+  columns: #000000;
+  background-color: #fff;
+  margin: 0 -15px;
+}
+
+.logo {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  margin-left: 250px;
+}
+
+/* nav */
+nav {
+  background-color: #01689b;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.home a {
+  font-size: 26px;
+}
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  display: 1 1 1;
+  padding: 10px 5px;
+  font-size: 19.2px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* slider */
+
+.slider {
+  background-image: url('slideback.jpg');
+  height: 375px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  padding-top: 25px;
+}
+
+.slider-left {
+  background-color: #fff;
+
+  width: 425px;
+  height: 280px;
+  padding: 25px;
+  margin-left: -150px;
+}
+
+.slider-left h2 {
+  font-size: 26px;
+  color: #000000;
+}
+
+.slider-left a {
+  font-size: 18px;
+  color: #01689b;
+  font-weight: bold;
+}
+
+.slider-left a:hover {
+  text-decoration: underline;
+  color: #01689b;
+}
+
+/* problem */
+.slider-left a:visited {
+  color: #767676; /* it changes the color of lists whatsover */
+}
+
+.slider-left a:active {
+  color: #01689b;
+}
+
+/* input */
+input {
+  display: flex;
+}
+.input input {
+  font-size: 40px;
+  border: none;
+}
+::placeholder {
+  color: #777;
+  opacity: 0.8;
+  font-size: 25px;
+  padding: 5px;
+}
+
+/* input icon is wrong */
+.input i {
+  position: relative;
+  font-size: 49px;
+  background-color: #000000;
+  color: #fff;
+  float: right;
+}
+
+/* main */
+
+.main1 {
+  background-color: #f3f3f3;
+}
+
+.main1-lists {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-shrink: 1 1 1 1;
+  /* width: 90%; */
+  margin: 0 120px;
+  padding: 60px 0 30px;
+}
+
+.content {
+  /* border:2px solid red; */
+  width: 300px;
+  height: 200px;
+  margin: 0 0 40px;
+  padding: 0 15px;
+}
+
+.content h3 {
+  color: #01689b;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.content p {
+  color: #000000;
+  font-size: 18px;
+}
+
+/* it should be hover over content, then only h3 underlined. but i did not know how to separete h3 and p */
+.content h3:hover {
+  text-decoration: underline;
+}
+
+/* section2 */
+
+.main2 {
+  background-color: #fff;
+  justify-content: center;
+  /* border:1px solid green; */
+}
+
+.spot-title h2 {
+  font-size: 26px;
+  color: #000000;
+  margin: 15px 20px 15px 3%;
+  text-decoration: none;
+}
+
+.spot-content img {
+  width: 100%;
+  height: 246px;
+}
+
+.spot-content {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  /* flex-grow: 3; */
+}
+
+.spot-content1,
+.spot-content2,
+.spot-content3 {
+  width: 27%;
+  height: 450px;
+  overflow: hidden;
+  text-align: left;
+  /* border:1px solid red; */
+}
+
+.spot-content h3 {
+  font-size: 28px;
+  color: #767676;
+  padding: 10px 0;
+}
+
+.spot-content p {
+  padding: 10px 0;
+  color: #000000;
+}
+
+/*  nuewe */
+
+.main3 {
+  background-color: #fff;
+  /* border:1px solid green; */
+}
+
+.main3 h2 {
+  font-size: 26px;
+  color: #000000;
+  margin: 15px 20px 15px 3%;
+  text-decoration: none;
+}
+
+.Nieuws-content {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-shrink: 1 1 1 1;
+  /* width: 90%; */
+  margin: 0 120px;
+}
+
+.Nieuws1,
+.Nieuws2,
+.Nieuws3,
+.Nieuws4,
+.Nieuws5,
+.Nieuws6 {
+  /* border:1px solid red; */
+  margin: 20px;
+  height: 350px;
+  width: 30%;
+}
+.Nieuws-content p {
+  font-size: 18px;
+  padding: 10px;
+  color: #000000;
+  /* margin:0 0 13px */
+}
+
+.Nieuws-content h3 {
+  color: #01689b;
+  font-size: 26px;
+}
+
+.date {
+  color: black;
+  font-weight: 1500;
+  font-size: 16px;
+}
+
+.more {
+  font-size: 18px;
+  color: #01689b;
+  margin: 50px 3%;
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: start;
+
+  margin: 60px 0;
+}
+
+.box1,
+.box2 {
+  border: 5px solid #cbd2e3;
+  width: 25.5%;
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+}
+
+.box1 {
+  margin: 20px 20px 20px 9%;
+}
+
+.box1 h3,
+.number {
+  font-size: 34px;
+  color: #01689b;
+}
+
+.box1 span {
+  font-size: 30px;
+}
+
+.box2 {
+  margin: 20px;
+}
+
+.box2 h3 {
+  font-size: 30px;
+  color: #767676;
+}
+
+.box-left span {
+  font-size: 34px;
+  color: #8373b4;
+}
+
+/* footer */
+
+.footer {
+  background-color: #01689b;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: #fff;
+  padding: 60px;
+  clear: both;
+}
+
+.footer-title {
+  font-size: 32px;
+}
+
+.footer li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+}
+
+.fixer {
+  clear: both;
+}
+.language {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.language ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language a {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+  font-size: 18px;
+  color: #01689b;
+  /* border:1px solid #007bc7;
+    border-spacing: 20px; */
+}
